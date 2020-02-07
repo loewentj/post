@@ -21,7 +21,7 @@ inputSearchField.value = "";
 
 
 async function getPostCode (){
-    let response = await fetch('/postcodes.json');
+    let response = await fetch('https://loewentj.github.io/post/postcodes.json');
   
     const jsonData = await response.json();
     
